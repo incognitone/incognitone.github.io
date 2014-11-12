@@ -2,6 +2,6 @@
 layout: default
 ---
 
-#Index
+#Home
 
-This should contain some information about our product.
+This is the home of Incognitone.
