@@ -3,11 +3,7 @@ layout: post
 title: Hello Android!
 ---
 
-#Hello Android!
-
-Hey,
-
-We have a working Android app!
+We have a working Android app skeleton!
 
 Screenshot:
 ![Screenshot](/images/hello_android.png)
