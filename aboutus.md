@@ -8,10 +8,10 @@ Some information about us here.
 
 $$ X(v) = \int_{-\infty}^{\infty} x(t) e^{-i 2 \pi v t}dt  $$
 
-This application has been made by the following Software Science (Bsc) students:<br>
-<br />Duncan Ogilvie
-<br />Gerwin van der Lugt
-<br />Thomas Billum
-<br />Adriaan kisjes
-<br />Amin Mohseni
+This application has been made by the following Software Science (Bsc) students:
 
+- Duncan Ogilvie
+- Gerwin van der Lugt
+- Thomas Billum
+- Adriaan kisjes
+- Amin Mohseni
