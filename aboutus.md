@@ -12,6 +12,6 @@ This application has been made by the following Software Science (Bsc) students:
 
 - Duncan Ogilvie
 - Gerwin van der Lugt
-- Thomas Billum
-- Adriaan kisjes
+- Tomas Billum
+- Adriaan Kisjes
 - Amin Mohseni
