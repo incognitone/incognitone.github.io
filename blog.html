@@ -1,18 +1,103 @@
----
-layout: default
-title: Blog
-permalink: /blog/
----
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Beepr - the new social media chat application</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/logo-1.png" />
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+   		 <script src="js/jquery.easing.min.js"></script>
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/logo-1.png" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700,800,900,600,200' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!----requred-js-files---->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		    <script src="js/html5shiv.js"></script>
+		    <script src="js/respond.min.js"></script>
+		<![endif]-->
+		<!----//requred-js-files---->
+		<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+		<script type="text/javascript">
+			$(document).ready( function() {
+			    $('.subMenu').smint({
+			    	'scrollSpeed' : 1000
+			    });
+			});
+		</script>
+	</head>
+	<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+		<!----start-container----->
+		<div class="head-bg sTop">
+			<div class="conatiner">
+				<div class="col-lg-12 header-note">
+					<a href="#"><img src="images/logo-1.png" title="Flat style" /></a>
+					<h1>Beepr</h1>
+					<a class="btn btn-primary big-btn" a href="https://play.google.com/store">Click here to find out more!<span> </span></a>
+				</div>
+			</div>
+		</div>
+		<!----//End-container----->
+		<!----start-top-nav---->
+		<nav class="subMenu navbar-custom navbar-scroll-top" role="navigation">
+	        <div class="container">
+	            <div class="navbar-header page-scroll">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+	                    <img src="images/nav-icon.png" title="drop-down-menu" /> 
+	                </button>
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
+	                <ul class="nav navbar-nav">
+	                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+	                   <li class="page-scroll">
+	                        <a id="s1" class="subNavBtn" href="#">Features</a>
+	                        </li>
+							<li class="page-scroll">
+	                        <a id="about" class="subNavBtn" href="#">Development</a>
+	                    </li>
+	                    <li class="page-scroll">
+	                        <a id="s2" class="subNavBtn" href="#">Why Beepr?</a>
+	                    </li>
+	                    <li class="page-scroll">
+	                        <a id="blog" class="subNavBtn" href="#">Blog</a>
+	                    </li>
+						<li class="page-scroll">
+	                        <a id="s3" class="subNavBtn" href="#">About us</a>
+	                    </li>
+						<li class="page-scroll">
+	                        <a id="s4" class="subNavBtn" href="#">Contact and Support</a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	             	
+	                <div class="clearfix"> </div>
+	        </div>
+	        <!-- /.container -->
+   	  </nav>
+		<!----//End-top-nav---->
+		
+		<div class="blog">
+		 {% for post in site.posts %}
+    <article class="container">    
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
+      <div class="#">
         {{ post.content }}
       </div>
     </article>
   {% endfor %}
-</div>
+			
+		</div>
