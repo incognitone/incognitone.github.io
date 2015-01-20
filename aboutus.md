@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: About Us
@@ -15,3 +16,4 @@ This application has been made by the following Software Science (Bsc) students:
 - Tomas Billum
 - Adriaan Kisjes
 - Amin Mohseni
+- Sebastiaan van Nijen
