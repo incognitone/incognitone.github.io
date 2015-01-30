@@ -2,52 +2,7 @@
 ---
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo-1.png" />
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-		<script src="js/jquery.min.js"></script>
-		 <!-- Custom Theme files -->
-		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
-   		 <script src="js/jquery.easing.min.js"></script>
-   		 <!-- Custom Theme files -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo-1.png" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		<!----webfonts---->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700,800,900,600,200' rel='stylesheet' type='text/css'>
-		<!----//webfonts---->
-		<!----requred-js-files---->
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		    <script src="js/html5shiv.js"></script>
-		    <script src="js/respond.min.js"></script>
-		<![endif]-->
-		<!----//requred-js-files---->
-		<script type="text/javascript" 	src="js/jquery.smint.js"></script>
-		<script type="text/javascript">
-			$(document).ready( function() {
-			    $('.subMenu').smint({
-			    	'scrollSpeed' : 1000
-			    });
-			});
-		</script>
-        <!-- google analytics -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-59101316-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-	</head>
+	{% include head.html %}
 	<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
 		<!----start-container----->
 		<div class="head-bg sTop">
